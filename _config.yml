@@ -3,7 +3,7 @@ title: Database Management Systems
 email: anirudhshekh@gmail.com
 description: "Course website for Database Management Systems"
 author: "Anirudh Singh Shekhawat"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "DBMS-Course-Website" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
