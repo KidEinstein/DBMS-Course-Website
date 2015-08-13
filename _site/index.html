@@ -9,13 +9,12 @@
   <title>Database Management Systems</title>
   <meta name="description" content="Course website for Database Management Systems">
 
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/DBMS-Course-Website/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/DBMS-Course-Website/css/custom.css">
 
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
-  <link rel="canonical" href="http://yourdomain.com/">
-  <link rel="alternate" type="application/rss+xml" title="Database Management Systems" href="http://yourdomain.com/feed.xml" />
+  <link rel="canonical" href="http://yourdomain.com/DBMS-Course-Website/">
+  <link rel="alternate" type="application/rss+xml" title="Database Management Systems" href="http://yourdomain.com/DBMS-Course-Website/feed.xml" />
 </head>
 
 
@@ -27,13 +26,13 @@
             <div class="container">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a class="site-title" href="/">Home</a>
+                        <a class="site-title" href="/DBMS-Course-Website/">Home</a>
                     </li>
                     <li>
-                        <a class="site-title" href="/">Syllabus</a>
+                        <a class="site-title" href="/DBMS-Course-Website/">Syllabus</a>
                     </li>
                     <li>
-                        <a class="site-title" href="/">Annoucements</a>
+                        <a class="site-title" href="/DBMS-Course-Website/">Annoucements</a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +46,7 @@
         <div class="container">
             <h1>Database Managament Systems</h1>
             <div class="row">
-                <div class="col-md-offset-9 col-md-3">
+                <div class="col-md-offset-8 col-md-4">
                     <p>Delivered by:</p>
                     Prof. Mamatha Jadhav
                     <br />CSE Department
@@ -56,34 +55,84 @@
             </div>
         </div>
     </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
+    <div class="row">
+        <div class="col-md-4">
+            <div id="quotesCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#quotesCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#quotesCarousel" data-slide-to="1"></li>
+    <li data-target="#quotesCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <span class="text-center-div">Store very large numbers of records efficiently</span>
+    </div>
+    <div class="item">
+        <span class="text-center-div">Quickly and easily find information</span>
+    </div>
+    <div class="item">
+        <span class="text-center-div">Easily add new data and to edit or delete old data</span>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#quotesCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#quotesCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox" style="height: 300px">
-        <div class="item active">
-          <img class="center-block" style="max-height:100%; max-width:100%;" src="/images/mysql.png" alt="Students">
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-responsive" style="height: 100px; margin-left: auto; margin-right: auto;" src="/DBMS-Course-Website/images/mongo.jpg" />
+<h4 style="text-align: center">Introduction to NoSQL database MongoDB</h4>
+<p>A 3 week long lab course on the most popular NoSQL database MongoDB, covering basic CRUD(Create, Retreive, Update, Delete) operations and intermediate-level operations like aggregation, replica sets, map-reduce, sorting etc.</p>
+<p style="text-align: right">Instructors: Anirudh Singh Shekhawat and Vikram S</p>
 
-        <div class="item">
-          <img class="img-responsive center-block" style="max-height:100%; max-width:100%;" src="/images/mongo.jpg" alt="Chania">
         </div>
+        <div class="col-md-4">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+      <div class="item active">
+          <div id="over">
+              <span class="Centerer"></span>
+              <img class="Centered" src="/DBMS-Course-Website/images/mysql.png" />
+          </div>
       </div>
 
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <div class="item">
+        <div id="over">
+            <span class="Centerer"></span>
+            <img class="Centered" src="/DBMS-Course-Website/images/mongo.jpg" />
+        </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+        </div>
     </div>
 </div>
 
