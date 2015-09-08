@@ -1,4 +1,5 @@
 ---
+layout: material
 path: /studymaterial/downloads/
 materials:
     # - topic: MongoDB Presentation
