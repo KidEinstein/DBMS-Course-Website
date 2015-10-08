@@ -6,7 +6,7 @@ layout: default
         <div class="row text-center" style="margin : 25px">
             <div class="col-md-4">{{material.topic}}</div>
             <div class="col-md-4">{{material.author}}</div>
-            <div class="col-md-4"><a href="{{site.data.studymaterial.path | prepend: site.baseurl}}{{material.file}}">Download</a></div>
+            <div class="col-md-4"><a href="{{page.path | prepend: site.baseurl}}{{material.file}}">Download</a></div>
         </div>
     {% endfor %}
 </div>
